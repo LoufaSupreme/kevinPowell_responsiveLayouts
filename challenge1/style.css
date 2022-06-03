@@ -26,15 +26,12 @@ body {
   color: white;
 
   width: 80%;
+  max-width: 750px;
   margin: 0 auto;
 
   padding: 2em;
-  height: auto;
-
-  display: flex;
 }
 
 .intro-content {
   width: 50%;
-  max-height: 100%;
 }
