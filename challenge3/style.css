@@ -33,6 +33,7 @@ p {
     background-color: #1db4da;
     transition: all 0.15s ease-in-out;
     cursor: pointer;
+    color: #23424a;
 }
 
 .btn:hover {
