@@ -64,9 +64,15 @@ header {
     padding: 0.5rem 0 0.5rem 0rem;
 }
 
+.logo {
+    display: flex;
+    margin-right: 1em;
+}
+
 .nav {
     display: flex;
     justify-content: space-between;
+    width: 100%;
 }
 
 .nav__list {
