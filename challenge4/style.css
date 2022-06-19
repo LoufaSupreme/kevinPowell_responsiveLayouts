@@ -10,13 +10,31 @@
     padding: 3rem;
 }
 
-.content {
-    width: 50%;
+.container {
+    /* BACKGROUND: GREY; */
+}
+
+.hero__text {
+    width: 62%;
     max-width: 750px;
+}
+
+.hero p {
+
+}
+
+.hero__img {
+    align-self: flex-start;
+    width: 32%;
+}
+
+img {
+    max-width: 100%;
 }
 
 h1 {
     padding-bottom: 1rem;
+    margin-top: 0;
 }
 
 p {
@@ -43,10 +61,11 @@ p {
 .row {
     display: flex;
     gap: 30px;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-    padding: 2em 10em;
+    justify-content: space-between;
+    /* align-items: center; */
+    /* margin: 0 auto; */
+    /* padding: 2em 10em; */
+    /* text-align: center; */
 }
 
 .col {
