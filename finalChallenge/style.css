@@ -120,6 +120,7 @@ nav {
     display: flex;
     flex-direction: column;
     max-width: 60%;
+    min-width: 200px;
     line-height: 1.6;
     align-self: flex-end;
 }
@@ -135,5 +136,20 @@ nav {
     align-self: flex-start;
     font-size: 1.2rem;
     padding: 0.3em 1.6em;
+}
+
+@media (max-width: 500px) {
+    .hero .container {
+        flex-direction: column;
+    }
+
+    .hero__content {
+        align-self: center;
+        max-width: 100%;
+    }
+
+    .hero__title {
+        max-width: 100%;
+    }
 }
 
