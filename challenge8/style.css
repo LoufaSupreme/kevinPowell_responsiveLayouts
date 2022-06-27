@@ -75,6 +75,55 @@ header {
     width: 100%;
 }
 
+.nav-toggle {
+    cursor: pointer;
+    border: 0;
+    width: 3em;
+    height: 3em;
+    padding: 0em;
+    border-radius: 50%;
+    background: #072A2D;
+    color: white;
+    transition: opacity 250ms ease;
+    
+    position: absolute;
+    left: 2rem;
+    top: 0.7rem;
+}
+
+.nav-toggle:focus,
+.nav-toggle:hover {
+    opacity: .75;
+}
+
+.hamburger {
+    width: 50%;
+    position: relative;
+}
+
+.hamburger,
+.hamburger::before,
+.hamburger::after {
+    display: block;
+    margin: 0 auto;
+    height: 3px;
+    background: white;
+}
+
+.hamburger::before,
+.hamburger::after {
+    content: '';
+    width: 100%;
+}
+
+.hamburger::before {
+    transform: translateY(-6px);
+}
+
+.hamburger::after {
+    transform: translateY(3px);
+} 
+
 .nav__list {
     margin: 0;
     display: flex;
@@ -194,4 +243,38 @@ header {
     .hero__img {
         margin-top: 2em;
     }
+
+    .nav {
+        padding-top: 2rem;
+        flex-direction: column;
+        display: none;
+    }
+
+    .nav__list, 
+    .nav__list--primary {
+        flex-direction: column;
+        margin: 0;
+        align-items: flex-start;
+        margin-bottom: 1rem;
+    }
+
+    .nav__item + .nav__item {
+        margin: 0 auto;
+    }
+
+    .nav__item {
+        margin: 0 auto;
+        padding: 0.5em 0;
+    }
+
+    .logo {
+        justify-content: center;
+        padding: 0.6rem 0 0.6rem 0;
+        margin: 0;
+    }
+
+    .visible {
+        display: flex;
+    }
+    
 }
