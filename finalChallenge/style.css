@@ -1,0 +1,68 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --darkest: #2E323F;
+    --dark: #3B4050;
+    --med: #6F737F;
+    --white: #FFFFFF;
+    --accent: #A59678;
+    --oswald: 'Oswald', sans-serif;
+    --monty: 'Montserrat', sans-serif;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.gold {
+    color: var(--accent);
+}
+
+.container {
+    display: flex;
+    max-width: 1200px;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    background-color: var(--darkest);
+    color: white;
+    text-transform: uppercase;
+    font-family: var(--oswald);
+    font-size: 0.9rem;
+}
+
+.nav {
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.logo {
+
+}
+
+.nav__list {
+    display: flex;
+}
+
+.nav__item {
+    list-style: none;
+}
+
+.nav__link {
+    cursor: pointer;
+}
+
+.nav__link:hover {
+    opacity: 0.65;
+}
+
