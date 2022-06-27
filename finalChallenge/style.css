@@ -138,6 +138,39 @@ nav {
     padding: 0.3em 1.6em;
 }
 
+.section1 {
+    background-color: rgb(231, 231, 231);
+    display: flex;
+    padding: 3.5rem 0;
+}
+
+.section1 .container {
+    gap: 3.6em;
+    flex-direction: column;
+    max-width: 50%;
+}
+
+.col {
+    text-align: center;
+}
+
+.col .subtitle {
+    font-family: var(--oswald);
+    font-size: 1.1rem;
+    margin-bottom: 0.5em;
+}
+
+.col .text {
+    font-size: 0.7rem;
+}
+
+@media (min-width: 500px) {
+    .section1 .container {
+        flex-direction: row;
+        max-width: 80%;
+    }
+}
+
 @media (max-width: 500px) {
     .hero .container {
         flex-direction: column;
