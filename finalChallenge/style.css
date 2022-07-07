@@ -155,7 +155,6 @@ section {
 .section1 .container {
     gap: 3.6em;
     flex-direction: column;
-    max-width: 50%;
 }
 
 .col {
@@ -244,15 +243,15 @@ section {
 
 
 
-@media (min-width: 500px) {
+@media (min-width: 700px) {
     .section1 .container {
         flex-direction: row;
-        max-width: 80%;
+        /* max-width: 80%; */
     }
 
 }
 
-@media (max-width: 500px) {
+@media (max-width: 700px) {
     .hero .container {
         flex-direction: column;
     }
